@@ -39,7 +39,15 @@ public class Time
     }
     
    public Jogador getJogadorMaiorSalario(){
-       return null;
+       Jogador maiorSalario = new Jogador();
+       for (Jogador jog : jogadores){
+        if( jog!= null){
+            if(jog.getSalario() > maiorSalario.getSalario()){
+            maiorSalario = jog;
+            }
+        }
+       }
+       return maiorSalario;
     }
     
    public Time(String Nome){
