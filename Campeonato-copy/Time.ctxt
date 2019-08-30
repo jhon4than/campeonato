@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Time
+comment1.params=
+comment1.target=double\ mediaIdade()
+comment10.params=posicao\ jogador
+comment10.target=void\ addJogador(int,\ Jogador)
+comment11.params=
+comment11.target=Jogador[]\ getJogadores()
+comment2.params=
+comment2.target=double\ mediaAltura()
+comment3.params=
+comment3.target=double\ valorFolhaPagamento()
+comment4.params=
+comment4.target=Jogador\ getJogadorMaiorSalario()
+comment5.params=Nome
+comment5.target=Time(java.lang.String)
+comment6.params=nome
+comment6.target=void\ setNome(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getNome()
+comment8.params=tecnico
+comment8.target=void\ setTecnico(Tecnico)
+comment9.params=
+comment9.target=Tecnico\ getTecnico()
+numComments=12
